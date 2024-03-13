@@ -1,0 +1,29 @@
+{
+  "name": "expo-llama-example",
+  "version": "1.0.0",
+  "main": "node_modules/expo/AppEntry.js",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web",
+    "build:local": "eas build --profile local",
+    "build:dev": "eas build --profile dev",
+    "build:stage": "eas build --profile stage",
+    "build:production": "eas build --profile production"
+  },
+  "dependencies": {
+    "expo": "~50.0.11",
+    "expo-dev-client": "~3.3.9",
+    "expo-status-bar": "~1.11.1",
+    "expo-updates": "~0.24.11",
+    "react": "18.2.0",
+    "react-native": "0.73.4"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.20.0",
+    "@types/react": "~18.2.45",
+    "typescript": "^5.1.3"
+  },
+  "private": true
+}
